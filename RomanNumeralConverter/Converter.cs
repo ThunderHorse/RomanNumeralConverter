@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace RomanNumeralConverter
 {
-    class Program
+    public class Converter
     {
+        public void Convert()
+        {
+            //Implement
+        }
+
         static void Main(string[] args)
         {
         }

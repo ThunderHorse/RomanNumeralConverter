@@ -1,1 +1,7 @@
 c:\users\jason\documents\visual studio 2013\Projects\RomanNumeralConverter\RomanNumeralConverter\bin\Debug\RomanNumeralConverter.exe.config
+c:\users\jason\documents\visual studio 2013\Projects\RomanNumeralConverter\RomanNumeralConverter\bin\Debug\RomanNumeralConverter.exe
+c:\users\jason\documents\visual studio 2013\Projects\RomanNumeralConverter\RomanNumeralConverter\bin\Debug\RomanNumeralConverter.pdb
+c:\users\jason\documents\visual studio 2013\Projects\RomanNumeralConverter\RomanNumeralConverter\obj\Debug\RomanNumeralConverter.exe
+c:\users\jason\documents\visual studio 2013\Projects\RomanNumeralConverter\RomanNumeralConverter\obj\Debug\RomanNumeralConverter.pdb
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\RomanNumeralConverter\RomanNumeralConverter\bin\Debug\nunit.framework.dll
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\RomanNumeralConverter\RomanNumeralConverter\bin\Debug\nunit.framework.xml
