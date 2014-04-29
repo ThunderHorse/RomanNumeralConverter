@@ -12,24 +12,26 @@ namespace RomanNumeralConverterTest
     [TestFixture]
     public class ConverterTest
     {
-        private Converter converter;
-
-        [SetUp]
-        public void Setup()
-        {
-            converter = new Converter();
-        }
-
         [Test]
-        public void Converter_Instantiates()
+        [TestCase("III", 3)]
+        [TestCase("VII", 7)]
+        [TestCase("CLX", 160)]
+        [TestCase("MMCCII", 2202)]
+        [TestCase("LXIII", 63)]
+        [TestCase("IM", 0)]
+        [TestCase("IIX", 0)]
+        [TestCase("XCIX", 99)]
+        [TestCase("IC", 0)]
+        [TestCase("IM", 0)]
+        [TestCase("MIM", 0)]
+        public void Converter_Successfully_Converts(string romanNumeral, int expectedConversion)
         {
-            converter.Convert();
-        }
+            //Arrange
+            //Act
+            int conversion = Converter.Convert(romanNumeral);
 
-        [TearDown]
-        public void TearDown()
-        { 
-            //TODO: Teardown
+            //Assert
+            Assert.AreEqual(expectedConversion, conversion);
         }
     }
 }
